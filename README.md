@@ -7,4 +7,15 @@ Then run this file with the command source("run_analysis.R") (assuming you're in
 
 * The file Codebook.md contains details of the transformations performed on the input data. For more information about the UCI HAR Dataset, see [the documentation] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
+The script run_analysis.R performs the following steps:
+
+  1. Load all data from input files,
+  2. merge the training and testing datasets,
+  3. extract the mean and std columns for each measurement,
+  4. appropriately label data in human_readable form, and
+  5. output aggregated data, grouped by activity and subject.
+
+For details on the script methodology, please see [Codebook.md]
+(https://github.com/datacathy/UCI_HAR_Dataset/blob/master/Codebook.md).
+
 Have fun!
